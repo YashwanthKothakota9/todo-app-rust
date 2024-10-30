@@ -8,10 +8,6 @@ use to_do::enums::TaskStatus;
 use to_do::to_do_factory;
 use to_do::ItemTypes;
 
-use crate::to_do::traits::delete::Delete;
-use crate::to_do::traits::edit::Edit;
-use crate::to_do::traits::get::Get;
-
 use serde_json::value::Value;
 use serde_json::{json, Map};
 use state::{read_file, write_to_file};
